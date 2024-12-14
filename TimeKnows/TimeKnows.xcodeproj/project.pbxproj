@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED6B85D92A5CF0F800BEC352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B85D82A5CF0F800BEC352 /* AppDelegate.m */; };
+		ED6B85DB2A5CF11200BEC352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6B85DA2A5CF11200BEC352 /* Assets.xcassets */; };
+		ED6B85DE2A5CF11200BEC352 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6B85DC2A5CF11200BEC352 /* MainMenu.xib */; };
+		ED6B85E02A5CF11200BEC352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B85DF2A5CF11200BEC352 /* main.m */; };
+		ED6B85E92A5CF2DE00BEC352 /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B85E82A5CF2DE00BEC352 /* EventManager.m */; };
+		ED6B85EC2A5CF3C800BEC352 /* EZTimeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B85EB2A5CF3C800BEC352 /* EZTimeTools.m */; };
+		ED6B862A2A60C7AB00BEC352 /* ExportTypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B86292A60C7AB00BEC352 /* ExportTypeView.m */; };
+		ED6B86352A60E3AD00BEC352 /* NSView+EZ.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6B86342A60E3AD00BEC352 /* NSView+EZ.m */; };
+		F32E65042A61835D006F596D /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E65022A61835C006F596D /* MainWindowController.m */; };
+		F32E65072A618365006F596D /* BaseWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E65062A618365006F596D /* BaseWindowController.m */; };
+		F32E650A2A62398E006F596D /* RemindersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E65092A62398E006F596D /* RemindersViewController.m */; };
+		F38FB5742CA99E3E00E5F675 /* RFOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FB5722CA99E3E00E5F675 /* RFOverlayScroller.m */; };
+		F38FB5752CA99E3E00E5F675 /* RFOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38FB5732CA99E3E00E5F675 /* RFOverlayScrollView.m */; };
+		FE8FAB7C4BEB831A2F9B6717 /* libPods-TimeKnows.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D72A4E8BE29D0D9F9A0E32 /* libPods-TimeKnows.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049771B99FC69B3CD6AD256C /* Pods-TimeKnows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeKnows.debug.xcconfig"; path = "Target Support Files/Pods-TimeKnows/Pods-TimeKnows.debug.xcconfig"; sourceTree = "<group>"; };
+		13D72A4E8BE29D0D9F9A0E32 /* libPods-TimeKnows.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeKnows.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F7951B27DA2A353550BF4E /* Pods-TimeKnows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeKnows.release.xcconfig"; path = "Target Support Files/Pods-TimeKnows/Pods-TimeKnows.release.xcconfig"; sourceTree = "<group>"; };
+		ED6B85D42A5CF0F800BEC352 /* 历知.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "历知.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6B85D72A5CF0F800BEC352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED6B85D82A5CF0F800BEC352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED6B85DA2A5CF11200BEC352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6B85DD2A5CF11200BEC352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ED6B85DF2A5CF11200BEC352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED6B85E12A5CF11200BEC352 /* TimeKnows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeKnows.entitlements; sourceTree = "<group>"; };
+		ED6B85E72A5CF2DE00BEC352 /* EventManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
+		ED6B85E82A5CF2DE00BEC352 /* EventManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
+		ED6B85EA2A5CF3C800BEC352 /* EZTimeTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZTimeTools.h; sourceTree = "<group>"; };
+		ED6B85EB2A5CF3C800BEC352 /* EZTimeTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZTimeTools.m; sourceTree = "<group>"; };
+		ED6B86282A60C7AB00BEC352 /* ExportTypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExportTypeView.h; sourceTree = "<group>"; };
+		ED6B86292A60C7AB00BEC352 /* ExportTypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExportTypeView.m; sourceTree = "<group>"; };
+		ED6B862B2A60C80600BEC352 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ED6B86332A60E3AD00BEC352 /* NSView+EZ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSView+EZ.h"; sourceTree = "<group>"; };
+		ED6B86342A60E3AD00BEC352 /* NSView+EZ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSView+EZ.m"; sourceTree = "<group>"; };
+		F32E65022A61835C006F596D /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		F32E65032A61835C006F596D /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		F32E65052A618365006F596D /* BaseWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWindowController.h; sourceTree = "<group>"; };
+		F32E65062A618365006F596D /* BaseWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWindowController.m; sourceTree = "<group>"; };
+		F32E65082A62398E006F596D /* RemindersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemindersViewController.h; sourceTree = "<group>"; };
+		F32E65092A62398E006F596D /* RemindersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemindersViewController.m; sourceTree = "<group>"; };
+		F38FB5702CA99E3E00E5F675 /* RFOverlayScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFOverlayScroller.h; sourceTree = "<group>"; };
+		F38FB5712CA99E3E00E5F675 /* RFOverlayScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFOverlayScrollView.h; sourceTree = "<group>"; };
+		F38FB5722CA99E3E00E5F675 /* RFOverlayScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFOverlayScroller.m; sourceTree = "<group>"; };
+		F38FB5732CA99E3E00E5F675 /* RFOverlayScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFOverlayScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED6B85D12A5CF0F800BEC352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8FAB7C4BEB831A2F9B6717 /* libPods-TimeKnows.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7416EDA98F526BADBC5D75C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D72A4E8BE29D0D9F9A0E32 /* libPods-TimeKnows.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F91BCAFD58E59040D3EC8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				049771B99FC69B3CD6AD256C /* Pods-TimeKnows.debug.xcconfig */,
+				D8F7951B27DA2A353550BF4E /* Pods-TimeKnows.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED6B85CB2A5CF0F800BEC352 = {
+			isa = PBXGroup;
+			children = (
+				ED6B85D62A5CF0F800BEC352 /* TimeKnows */,
+				ED6B85D52A5CF0F800BEC352 /* Products */,
+				A9F91BCAFD58E59040D3EC8C /* Pods */,
+				7416EDA98F526BADBC5D75C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6B85D52A5CF0F800BEC352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B85D42A5CF0F800BEC352 /* 历知.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6B85D62A5CF0F800BEC352 /* TimeKnows */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B85D72A5CF0F800BEC352 /* AppDelegate.h */,
+				ED6B85D82A5CF0F800BEC352 /* AppDelegate.m */,
+				ED6B862B2A60C80600BEC352 /* PrefixHeader.pch */,
+				ED6B86282A60C7AB00BEC352 /* ExportTypeView.h */,
+				F38FB56F2CA99E3E00E5F675 /* RFOverlayScrollView */,
+				ED6B86292A60C7AB00BEC352 /* ExportTypeView.m */,
+				F32E65032A61835C006F596D /* MainWindowController.h */,
+				F32E65022A61835C006F596D /* MainWindowController.m */,
+				F32E65052A618365006F596D /* BaseWindowController.h */,
+				F32E65062A618365006F596D /* BaseWindowController.m */,
+				F32E65082A62398E006F596D /* RemindersViewController.h */,
+				F32E65092A62398E006F596D /* RemindersViewController.m */,
+				ED6B85E72A5CF2DE00BEC352 /* EventManager.h */,
+				ED6B85E82A5CF2DE00BEC352 /* EventManager.m */,
+				ED6B86332A60E3AD00BEC352 /* NSView+EZ.h */,
+				ED6B86342A60E3AD00BEC352 /* NSView+EZ.m */,
+				ED6B85EA2A5CF3C800BEC352 /* EZTimeTools.h */,
+				ED6B85EB2A5CF3C800BEC352 /* EZTimeTools.m */,
+				ED6B85DA2A5CF11200BEC352 /* Assets.xcassets */,
+				ED6B85DC2A5CF11200BEC352 /* MainMenu.xib */,
+				ED6B85DF2A5CF11200BEC352 /* main.m */,
+				ED6B85E12A5CF11200BEC352 /* TimeKnows.entitlements */,
+			);
+			path = TimeKnows;
+			sourceTree = "<group>";
+		};
+		F38FB56F2CA99E3E00E5F675 /* RFOverlayScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				F38FB5702CA99E3E00E5F675 /* RFOverlayScroller.h */,
+				F38FB5712CA99E3E00E5F675 /* RFOverlayScrollView.h */,
+				F38FB5722CA99E3E00E5F675 /* RFOverlayScroller.m */,
+				F38FB5732CA99E3E00E5F675 /* RFOverlayScrollView.m */,
+			);
+			path = RFOverlayScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED6B85D32A5CF0F800BEC352 /* TimeKnows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6B85E42A5CF11200BEC352 /* Build configuration list for PBXNativeTarget "TimeKnows" */;
+			buildPhases = (
+				3B0B39FB814F83D6FAD1112A /* [CP] Check Pods Manifest.lock */,
+				ED6B85D02A5CF0F800BEC352 /* Sources */,
+				ED6B85D12A5CF0F800BEC352 /* Frameworks */,
+				ED6B85D22A5CF0F800BEC352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeKnows;
+			productName = TimeKnows;
+			productReference = ED6B85D42A5CF0F800BEC352 /* 历知.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6B85CC2A5CF0F800BEC352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ED6B85D32A5CF0F800BEC352 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ED6B85CF2A5CF0F800BEC352 /* Build configuration list for PBXProject "TimeKnows" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6B85CB2A5CF0F800BEC352;
+			productRefGroup = ED6B85D52A5CF0F800BEC352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6B85D32A5CF0F800BEC352 /* TimeKnows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED6B85D22A5CF0F800BEC352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6B85DB2A5CF11200BEC352 /* Assets.xcassets in Resources */,
+				ED6B85DE2A5CF11200BEC352 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B0B39FB814F83D6FAD1112A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TimeKnows-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED6B85D02A5CF0F800BEC352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6B85E02A5CF11200BEC352 /* main.m in Sources */,
+				F38FB5752CA99E3E00E5F675 /* RFOverlayScrollView.m in Sources */,
+				ED6B85D92A5CF0F800BEC352 /* AppDelegate.m in Sources */,
+				F38FB5742CA99E3E00E5F675 /* RFOverlayScroller.m in Sources */,
+				ED6B862A2A60C7AB00BEC352 /* ExportTypeView.m in Sources */,
+				F32E650A2A62398E006F596D /* RemindersViewController.m in Sources */,
+				ED6B85E92A5CF2DE00BEC352 /* EventManager.m in Sources */,
+				F32E65072A618365006F596D /* BaseWindowController.m in Sources */,
+				ED6B86352A60E3AD00BEC352 /* NSView+EZ.m in Sources */,
+				F32E65042A61835D006F596D /* MainWindowController.m in Sources */,
+				ED6B85EC2A5CF3C800BEC352 /* EZTimeTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED6B85DC2A5CF11200BEC352 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED6B85DD2A5CF11200BEC352 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED6B85E22A5CF11200BEC352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED6B85E32A5CF11200BEC352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ED6B85E52A5CF11200BEC352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049771B99FC69B3CD6AD256C /* Pods-TimeKnows.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeKnows/TimeKnows.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TimeKnows/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "历知";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "历知需要您授权日历，才能导出日历数据";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "历知需要您授权提醒事项，才能导出提醒事项数据";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ds.timeknows;
+				PRODUCT_NAME = "历知";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		ED6B85E62A5CF11200BEC352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8F7951B27DA2A353550BF4E /* Pods-TimeKnows.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeKnows/TimeKnows.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TimeKnows/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "历知";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "历知需要您授权日历，才能导出日历数据";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "历知需要您授权提醒事项，才能导出提醒事项数据";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 0.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ds.timeknows;
+				PRODUCT_NAME = "历知";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED6B85CF2A5CF0F800BEC352 /* Build configuration list for PBXProject "TimeKnows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6B85E22A5CF11200BEC352 /* Debug */,
+				ED6B85E32A5CF11200BEC352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6B85E42A5CF11200BEC352 /* Build configuration list for PBXNativeTarget "TimeKnows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6B85E52A5CF11200BEC352 /* Debug */,
+				ED6B85E62A5CF11200BEC352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED6B85CC2A5CF0F800BEC352 /* Project object */;
+}

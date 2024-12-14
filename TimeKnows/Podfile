@@ -1,0 +1,14 @@
+
+target "TimeKnows" do
+platform :osx, '10.11'
+# pod 'Ono'
+# pod 'AFNetworking', '~> 3.2.0'
+pod 'Masonry', '~> 1.1.0'
+# pod 'Ono'
+pod 'MJExtension', '3.0.13'
+#pod 'GDataXML-HTML', '~> 1.4.1'
+# pod 'CocoaLumberjack'
+#pod 'SDWebImage'
+end
+ 
+ 
